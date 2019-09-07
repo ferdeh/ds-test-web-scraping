@@ -4,7 +4,7 @@
 library(rtweet)
 library(compare)
 #token twitter
-#masukam token terlebih dahulu untuk memjalankan
+#masukan token terlebih dahulu untuk memjalankan
 
 token <- create_token(
   consumer_key = "XXXXXCuXxQaVILbGJ1kGrPtUU",

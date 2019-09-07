@@ -225,10 +225,11 @@ actors_data<-as.factor(actors_data)
 # summary(metascore_data)
 # 
 # #Using CSS selectors to scrap the gross revenue section
-# gross_data_html <- html_nodes(webpage,'.ghost~ .text-muted+ span')
+ gross_data_html <- html_node(webpage,'.ghost~ .text-muted+ span')
 # 
 # #Converting the gross revenue data to text
-# gross_data <- html_text(gross_data_html)
+ gross_data <- html_text(gross_data_html)
+ gross_data
 # 
 # #Let's have a look at the votes data
 # head(gross_data)

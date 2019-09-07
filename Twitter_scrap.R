@@ -2,9 +2,9 @@
 # Import Library
 
 library(rtweet)
-library(compare)
+
 #token twitter
-#masukan token terlebih dahulu untuk memjalankan
+#masukan token terlebih dahulu untuk menjalankan
 
 token <- create_token(
   consumer_key = "XXXXXCuXxQaVILbGJ1kGrPtUU",

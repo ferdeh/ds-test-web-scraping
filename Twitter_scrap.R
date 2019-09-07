@@ -4,12 +4,13 @@
 library(rtweet)
 library(compare)
 #token twitter
+#masukam token terlebih dahulu untuk memjalankan
 
 token <- create_token(
-  consumer_key = "RYYCjCuXxQaVILbGJ1kGrPtUU",
-  consumer_secret = "rw7BkjhOrw8bl6qxKf6IUIMIeQ8Rq9MFvdt2HuWudaj2R3bewX",
-  access_token = "50967691-Z8rSTs6cfr5J6PCV2XXDicA2KNpAFbJQbUNgIOxZl",
-  access_secret = "KLEu0D1J0MnpcPpoUJeyVjP8GZjHV8wjc5mUnBHtBfbqz")
+  consumer_key = "XXXXXCuXxQaVILbGJ1kGrPtUU",
+  consumer_secret = "XXXXXjhOrw8bl6qxKf6IUIMIeQ8Rq9MFvdt2HuWudaj2R3bewX",
+  access_token = "XXXXXXXX-Z8rSTs6cfr5J6PCV2XXDicA2KNpAFbJQbUNgIOxZl",
+  access_secret = "XXXXXD1J0MnpcPpoUJeyVjP8GZjHV8wjc5mUnBHtBfbqz")
 
 #mengambil WOEID (Where on Earth ID Yahoo) dari available trend
 woeid<-trends_available(token = NULL, parse = TRUE)
